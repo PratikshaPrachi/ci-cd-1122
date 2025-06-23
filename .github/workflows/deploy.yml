@@ -17,5 +17,5 @@ jobs:
          host: 13.204.86.118
          username: ubuntu
          key: ${{ secrets.KEY }}
-         port: 3000
+         port: 22
          script: whoami
