@@ -4,7 +4,7 @@ on:
     branches: ["main"]
 jobs:
   deploy:
-    name: deploying to EC2
+    name: deploying to EC2 server
     runs-on: ubuntu-latest
 
     steps:
