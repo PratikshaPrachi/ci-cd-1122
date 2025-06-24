@@ -30,7 +30,7 @@ jobs:
           git pull origin main
           npm install
           npm run build
-          npm start
           sudo lsof -ti :3000 | xargs -r sudo kill -9
+          npm start
           nohup npm start > out.log 2>&1 &
           
