@@ -31,5 +31,6 @@ jobs:
           npm install
           npm run build
           npm start
+          fuser -k 3000/tcp || true
           nohup npm start > out.log 2>&1 &
           
