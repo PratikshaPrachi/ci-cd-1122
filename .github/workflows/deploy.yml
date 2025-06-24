@@ -31,4 +31,5 @@ jobs:
           npm install
           npm run build
           npm start
-
+          nohup npm start > out.log 2>&1 &
+          
